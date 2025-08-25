@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PMM to Hex Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PMM to Hex Converter</h1>
+    <input type="file" id="fileInput" accept=".pmm" />
+    <button id="convertBtn" class="hidden">変換</button>
+
+    <div id="buttons" class="hidden">
+      <button id="saveTxt">Save .txt</button>
+      <button id="saveCsv">Save .csv</button>
+    </div>
+
+    <div id="output" class="hidden" aria-live="polite"></div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
